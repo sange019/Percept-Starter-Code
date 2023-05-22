@@ -14,7 +14,7 @@
 
 function [datastruct] = percept_loaddata(pathname,filename,comptype)
 
-if(comptype == 'MAC')
+if(strcmp(comptype,'MAC'))
     slash = '/';
 else
     slash = '\';
